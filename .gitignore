@@ -18,11 +18,6 @@ db.sqlite3
 # Logs
 *.log
 
-# Migrations (como é um projeto pessoal, não quero versionar as migrações,
-# mas quero manter o arquivo __init__.py para que o Django reconheça a pasta como um pacote)
-*/migrations/*.py
-!*/migrations/__init__.py
-
 # VS Code
 .vscode/
 
